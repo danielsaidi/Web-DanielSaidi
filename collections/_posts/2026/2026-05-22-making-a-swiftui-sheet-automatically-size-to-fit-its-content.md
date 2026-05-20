@@ -1,6 +1,6 @@
 ---
 title:  Making a SwiftUI sheet automatically size to fit its content
-date:   2026-05-18 08:00:00 +0100
+date:   2026-05-22 08:00:00 +0100
 tags:   swiftui
 
 image-show: 0
