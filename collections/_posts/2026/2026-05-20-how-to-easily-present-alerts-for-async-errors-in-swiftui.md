@@ -25,20 +25,20 @@ The code in this article uses [PresentationKit]({{page.sdk}}), which is an small
 
 ## The building blocks
 
-At its core lies a `PresentationContext`, which is just a very basic observable class with a generic value.
+At its core lies a `Presentation`, which is just a very basic observable class with a single, generic value.
 
 ```swift
 @Observable
-public final class PresentationContext<ItemType> {
+public final class Presentation<ItemType> {
 
-    /// Create a new context instance.
+    /// Create a new instance.
     public init() {}
 
     /// The value to present.
     public var item: ItemType?
 }
 
-public extension PresentationContext {
+public extension Presentation {
 
     /// Present the provided value.
     func present(_ item: ItemType) {
@@ -47,22 +47,22 @@ public extension PresentationContext {
 }
 ```
 
-This context can be used with the regular `alert`, `fullScreenCover`, and `sheet` modifiers. The library also adds context-based versions for even easier use:
+This can be used with the regular `alert`, `fullScreenCover`, and `sheet` modifiers. The library also has value-based versions for even easier use:
 
 ```swift
 public extension View {
 
     func alert<Item: Identifiable, Actions: View, Message: View>(
-        for context: Binding<PresentationContext<Item>>,
+        for presentation: Binding<Presentation<Item>>,
         content: @escaping (Item) -> AlertMessage<Actions, Message>
     ) -> some View {
         self.alert(
-            context.wrappedValue.item.map(content)?.title ?? "",
+            presentation.wrappedValue.item.map(content)?.title ?? "",
             isPresented: Binding(
-                get: { context.wrappedValue.item != nil },
-                set: { if !$0 { context.wrappedValue.item = nil } }
+                get: { presentation.wrappedValue.item != nil },
+                set: { if !$0 { presentation.wrappedValue.item = nil } }
             ),
-            presenting: context.wrappedValue.item,
+            presenting: presentation.wrappedValue.item,
             actions: { item in content(item).actions() },
             message: { item in content(item).message() }
         )
@@ -70,12 +70,12 @@ public extension View {
 
     #if !os(macOS)
     func fullScreenCover<Item: Identifiable, Content: View>(
-        for context: Binding<PresentationContext<Item>>,
+        for presentation: Binding<Presentation<Item>>,
         onDismiss: (() -> Void)? = nil,
         content: @escaping (Item) -> Content
     ) -> some View {
         self.fullScreenCover(
-            item: context.item,
+            item: presentation.item,
             onDismiss: onDismiss,
             content: content
         )
@@ -83,12 +83,12 @@ public extension View {
     #endif
 
     func sheet<Item: Identifiable, Content: View>(
-        for context: Binding<PresentationContext<Item>>,
+        for presentation: Binding<Presentation<Item>>,
         onDismiss: (() -> Void)? = nil,
         content: @escaping (Item) -> Content
     ) -> some View {
         self.sheet(
-            item: context.item,
+            item: presentation.item,
             onDismiss: onDismiss,
             content: content
         )
@@ -96,19 +96,19 @@ public extension View {
 }
 ```
 
-This may seem like an unnecessary addition, but having this context class gives us a foundation to build on. Let's see how we can take this further.
+This may seem like an unnecessary addition, but having this class gives us a foundation to build on. Let's see how we can take things further.
 
 
 ## Error alerting
 
-With the `PresentationContext` in place, we can build additional utilities for convenient error alerting.
+With the `Presentation` class in place, we can build additional utilities for convenient error alerting.
 
-The library has an `ErrorAlerter` protocol that can be implemented by any types that should be able to alert errors. You only need to define a context property that uses `Error` as its value:
+The library has an `ErrorAlerter` protocol that can be implemented by any types that should be able to alert errors. You just have to define an `alertError` property with an `Error` value:
 
 ```swift
 public protocol ErrorAlerter {
 
-    var errorContext: PresentationContext<Error> { get }
+    var alertError: Presentation<Error> { get }
 }
 ```
 
@@ -119,7 +119,7 @@ With this, all conforming types get an `alert` function, as well as a `tryWithEr
 public extension ErrorAlerter {
 
     func alert(error: Error) {
-        errorContext.present(error)
+        alertError.present(error)
     }
 
     func tryWithErrorAlert(
@@ -171,15 +171,15 @@ With this protocol in place, we can now extend `View` with a more convenient `al
 public extension View {
 
     func alert<Item: Error>(
-        for context: Binding<PresentationContext<Item>>
+        for presentation: Binding<Presentationpresentation<Item>>
     ) -> some View {
         self.alert(
-            alertTitle(for: context.wrappedValue.item),
+            alertTitle(for: presentation.wrappedValue.item),
             isPresented: Binding(
-                get: { context.wrappedValue.item != nil },
-                set: { if !$0 { context.wrappedValue.item = nil } }
+                get: { presentation.wrappedValue.item != nil },
+                set: { if !$0 { presentation.wrappedValue.item = nil } }
             ),
-            presenting: context.wrappedValue.item,
+            presenting: presentation.wrappedValue.item,
             actions: { alertActions(for: $0) },
             message: { alertMessage(for: $0) }
         )
@@ -222,18 +222,18 @@ Together, these utilities let you call throwing async operations, and trust that
 
 ## Example
 
-To make any SwiftUI view conform to `ErrorAlerter`, add a `PresentationContext<Error>` property and attach the `.alert(for:)` modifier to the view:
+To make any SwiftUI view conform to `ErrorAlerter`, add a `Presentation<Error>` property and attach the `.alert(for:)` modifier to the view:
 
 ```swift
 struct MyView: View, @MainActor ErrorAlerter {
 
-    @State var errorContext = PresentationContext<Error>()
+    @State var alertError = Presentation<Error>()
 
     var body: some View {
         List {
             // ...
         }
-        .alert(for: $errorContext)
+        .alert(for: $alertError)
     }
 }
 ```
@@ -274,7 +274,7 @@ enum DataError: String, AlertableError {
 
 struct ContentView: View, @MainActor ErrorAlerter {
 
-    @State var errorContext = PresentationContext<Error>()
+    @State var alertError = Presentation<Error>()
 
     var body: some View {
         List {
@@ -294,7 +294,7 @@ struct ContentView: View, @MainActor ErrorAlerter {
                 }
             }
         }
-        .alert(for: $errorContext)
+        .alert(for: $alertError)
     }
 
     func fetchData() async throws {
