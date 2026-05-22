@@ -11,7 +11,7 @@ source: https://github.com/danielsaidi/SwiftUIKit/tree/master/Sources/SwiftUIKit
 In this post, we'll look at an easier way to manage full screen covers in SwiftUI, in a way that reduces state management and lets us present many covers with the same modifier.
 
 
-## TLDR;
+## TL;DR
 
 If you find the post too long, I have added the source code to my [SwiftUIKit]({{page.lib}}) library. You can find it [here]({{page.source}}). Feel free to try it out and let me know what you think.
 

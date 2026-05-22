@@ -17,7 +17,7 @@ After many, many years of great service, I'm looking to replace Fastlane with pl
 
 <!--![Header image]({{page.image}})-->
 
-## TLDR;
+## TL;DR
 
 This article goes in-depth on how to create Shell scripts to manage many parts of a Swift Package's lifecycle. If you're just after the scripts and basic info, have a look at the [SwiftPackageScripts]({{page.sdk}}) project.
 

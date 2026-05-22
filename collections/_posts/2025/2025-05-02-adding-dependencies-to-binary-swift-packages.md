@@ -31,7 +31,7 @@ While regular Swift package targets can define dependencies, binary targets can'
 The post has been updated with a more extensive approach that lets us add both open- and closed-source dependencies to a package.
 
 
-## TLDR;
+## TL;DR
 
 If you just want to know how to add dependency to binary Swift Package targets, here's a summary.
 
