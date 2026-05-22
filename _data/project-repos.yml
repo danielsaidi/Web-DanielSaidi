@@ -1,0 +1,123 @@
+- websites:
+
+  - name: Daniel Saidi
+    url: https://github.com/danielsaidi/web-danielsaidi
+    folder: danielsaidi
+    
+  - name: Kankoda
+    url: https://github.com/kankoda/kankoda-web
+    folder: kankoda
+
+  - name: Wally
+    url: https://github.com/danielsaidi/wally-web
+    folder: wally
+    
+  - name: Appamini
+    url: https://github.com/danielsaidi/appamini-web
+    folder: appamini
+
+- apps:
+
+  - name: KankodaKit
+    url: https://github.com/kankoda/kankodakit
+    folder: kankodakit
+
+  - name: EmojiPicker
+    url: https://github.com/kankoda/emojipicker-app
+    folder: emojipicker
+
+  - name: Lunchrrrrr
+    url: https://github.com/danielsaidi/lunchrrrrr-app
+    folder: lunchrrrrr
+    
+  - name: OTP
+    url: https://github.com/danielsaidi/onetouchpaste-app
+    folder: otp
+    
+  - name: Wally
+    url: https://github.com/danielsaidi/wally-app
+    folder: wally
+    
+  - name: Appamini
+    url: https://github.com/danielsaidi/appamini-app
+    folder: appamini
+    
+  - name: Vinylsamlaren
+    url: https://github.com/danielsaidi/vinylsamlaren-app
+    folder: vinylsamlaren
+
+- keyboardkit:
+
+  - name: KeyboardKit
+    url: https://github.com/keyboardkit/keyboardkit
+    folder: release
+    
+  - name: KeyboardKit Source
+    url: https://github.com/keyboardkit/keyboardkit-source
+    folder: src
+    
+  - name: KeyboardKit Source Android
+    url: https://github.com/keyboardkit/keyboardkit-source-android
+    folder: src-android
+    
+  - name: KeyboardKit Documentation
+    url: https://github.com/keyboardkit/keyboardkit-documentation
+    folder: docs
+    
+  - name: KeyboardKit Binaries
+    url: https://github.com/keyboardkit/keyboardkit-binaries
+    folder: binaries
+    
+  - name: KeyboardKit Licenses
+    url: https://github.com/keyboardkit/keyboardkit-licenses
+    folder: licenses
+    
+  - name: KeyboardKit App
+    url: https://github.com/keyboardkit/keyboardkit-app
+    folder: app
+    
+  - name: KeyboardKit Web
+    url: https://github.com/keyboardkit/keyboardkit-web
+    folder: web
+
+- licensekit:
+
+  - name: LicenseKit
+    url: https://github.com/kankoda/licensekit
+    folder: release
+    
+  - name: LicenseKit Source
+    url: https://github.com/kankoda/licensekit-source
+    folder: src
+    
+  - name: LicenseKit Binaries
+    url: https://github.com/kankoda/licensekit-binaries
+    folder: binaries
+
+- mediakit:
+
+  - name: MediaKit
+    url: https://github.com/kankoda/mediakit
+    folder: release
+    
+  - name: MediaKit Source
+    url: https://github.com/kankoda/mediakit-source
+    folder: src
+    
+  - name: MediaKit Binaries
+    url: https://github.com/kankoda/mediakit-binaries
+    folder: binaries
+
+- vietnameseinput:
+
+  - name: Vietnamese
+    url: https://github.com/kankoda/vietnameseinput
+    folder: release
+    
+  - name: Vietnamese Source
+    url: https://github.com/kankoda/vietnameseinput-source
+    folder: src
+    
+  - name: Vietnamese Binaries
+    url: https://github.com/kankoda/vietnameseinput-binaries
+    folder: binaries

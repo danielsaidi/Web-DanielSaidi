@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:bleepingswift.com)"
+      "WebFetch(domain:bleepingswift.com)",
+      "Bash(xargs -I{} head -5 {})"
     ]
   }
 }
