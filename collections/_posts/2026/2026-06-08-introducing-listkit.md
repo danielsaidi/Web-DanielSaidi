@@ -10,12 +10,14 @@ assets: /assets/blog/26/0608/article/
 sdk:  https://github.com/danielsaidi/ListKit
 swiftuikit:  https://github.com/danielsaidi/SwiftUIKit
 
-toot: https://mastodon.social/@danielsaidi/116617302684647336
-bsky: https://bsky.app/profile/danielsaidi.bsky.social/post/3mmgjkzvbys2t
+toot: https://mastodon.social/@danielsaidi/116715202388853962
+bsky: https://bsky.app/profile/danielsaidi.bsky.social/post/3mnryspgdm22j
 ---
 
 
 Say hi to [ListKit]({{page.sdk}}) - a new open-source library for working with lists in SwiftUI. The library has reusable view components and extension for many common challenges.
+
+![ListKit logo](/assets/sdks/listkit-header.jpg)
 
 ListKit contains views and utilities that have been extracted from [SwiftUIKit]({{page.swiftuikit}}), since I want to replace that previous monolith with several smaller and more focused libraries.
 
