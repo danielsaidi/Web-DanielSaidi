@@ -141,12 +141,13 @@ We can then add a build step that checks out the code, then another to use the `
 
 We can then add a build step that decrypts the distribution certificate and adds it to the keychain:
 
+{% raw %}
 ```yml
       - name: Set up certificate
         env:
-          BUILD_CERTIFICATE_BASE64: {% raw %}${{ secrets.BUILD_CERTIFICATE_BASE64 }}{% endraw %}
-          P12_PASSWORD: {% raw %}${{ secrets.P12_PASSWORD }}{% endraw %}
-          KEYCHAIN_PASSWORD: {% raw %}${{ secrets.KEYCHAIN_PASSWORD }}{% endraw %}
+          BUILD_CERTIFICATE_BASE64: ${{ secrets.BUILD_CERTIFICATE_BASE64 }}
+          P12_PASSWORD: ${{ secrets.P12_PASSWORD }}
+          KEYCHAIN_PASSWORD: ${{ secrets.KEYCHAIN_PASSWORD }}
         run: |
           # create variables
           CERTIFICATE_PATH=$RUNNER_TEMP/build_certificate.p12
@@ -165,6 +166,7 @@ We can then add a build step that decrypts the distribution certificate and adds
           security set-key-partition-list -S apple-tool:,apple: -k "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
           security list-keychain -d user -s $KEYCHAIN_PATH
 ```
+{% endraw %}
 
 With the distribution certificate added to the keychain, we can now create the XCFramework binary.
 
@@ -196,6 +198,7 @@ When it comes to uploading the generated `XCFramework` as an artifact, *do not* 
 
 Instead, we use `--zip 1` above to generate a zip file, then upload the zip file as an artifact. Since it will be zipped again by GitHub Actions, we give the artifact a `-Container` suffix to clarify this:
 
+{% raw %}
 ```yml
       - name: Upload XCFramework Container
         uses: actions/upload-artifact@v4
@@ -204,6 +207,7 @@ Instead, we use `--zip 1` above to generate a zip file, then upload the zip file
           path: .build/${{ env.PACKAGE_NAME }}.zip
           if-no-files-found: error
 ```
+{% endraw %}
 
 This will require us to download and unzip the artifact before uploading it to a release, since the zip file will contain the XCFramework zip file. 
 
@@ -217,6 +221,7 @@ To simplify handling nested zip files, make sure to untick these boxes in Safari
 
 We can finally upload the dSYMs symbolic files as an additional binary artifact with this build step:
 
+{% raw %}
 ```yml
       - name: Upload dSYMs
         uses: actions/upload-artifact@v4
@@ -225,9 +230,11 @@ We can finally upload the dSYMs symbolic files as an additional binary artifact 
           path: .build/dSYMs
           if-no-files-found: error
 ```
+{% endraw %}
 
 If the user chooses to bump the package version after this build, we can handle it with these steps:
 
+{% raw %}
 ```yml
       - name: Configure Git
         if: ${{ inputs.bump_type != 'none' }}
@@ -248,9 +255,7 @@ If the user chooses to bump the package version after this build, we can handle 
             ./scripts/version_bump.sh --type "${{ inputs.bump_type }}"
           fi
 ```
-
-
-
+{% endraw %}
 
 
 That's it! We are finally ready to push this workflow file to GitHub and try it out to see that it works.

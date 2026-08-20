@@ -1,6 +1,6 @@
 ---
 title:  In Case I'm Not Writing Anymore
-date:   2026-08-31 08:00:00 +0000
+date:   2026-10-31 08:00:00 +0000
 tags:   general
 
 github: https://github.com/danielsaidi
