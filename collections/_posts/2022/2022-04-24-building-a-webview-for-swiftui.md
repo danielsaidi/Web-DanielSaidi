@@ -1,7 +1,7 @@
 ---
 title:  Building a WebView for iOS and macOS in SwiftUI
 date:   2022-04-24 08:00:00 +0100
-tags:   swiftui sdks
+tags:   swiftui open-source
 
 assets: /assets/blog/22/0424/
 image:  /assets/blog/22/0424/image.jpg

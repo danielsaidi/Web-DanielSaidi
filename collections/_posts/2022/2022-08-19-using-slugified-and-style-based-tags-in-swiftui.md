@@ -1,7 +1,7 @@
 ---
 title: Using slugified and style-based tags in SwiftUI
 date:  2022-08-19 00:00:00 +0000
-tags:  swiftui tagging
+tags:  swiftui tags
 
 image:  /assets/headers/tagkit.png
 demo:   https://github.com/danielsaidi/TagKit/raw/main/Resources/Demo-v2.gif

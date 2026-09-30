@@ -1,7 +1,7 @@
 ---
 title:  Creating custom environment values in SwiftUI
 date:   2024-04-14 04:00:00 +0000
-tags:   swiftui sdks
+tags:   swiftui open-source
 assets: /assets/blog/24/0414/
 image:  /assets/blog/24/0414.jpg
 image-show: 0

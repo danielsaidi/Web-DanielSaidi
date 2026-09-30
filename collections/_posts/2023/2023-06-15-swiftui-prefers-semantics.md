@@ -1,7 +1,7 @@
 ---
 title:  SwiftUI Prefers Semantics
 date:   2023-06-15 06:00:00 +0000
-tags:   swiftui sdks
+tags:   swiftui open-source
 assets: /assets/blog/23/0615/
 image:  /assets/blog/23/0615/image.jpg
 image-show: 0

@@ -1,7 +1,7 @@
 ---
 title:  Using the isEnabled environment value in iOS 14
 date:   2022-05-20 10:00:00 +0000
-tags:   swiftui environment-values
+tags:   swiftui
 
 icon:   swiftui
 assets: /assets/blog/22/0520/

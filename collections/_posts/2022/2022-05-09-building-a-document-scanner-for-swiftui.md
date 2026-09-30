@@ -1,7 +1,7 @@
 ---
 title:  Building a document scanner in SwiftUI
 date:   2022-05-09 06:00:00 +0000
-tags:   swiftui sdks
+tags:   swiftui open-source
 icon:   swiftui
 tweet:  https://twitter.com/danielsaidi/status/1523549448458354688?s=20&t=bGaXlye_gZRmIMHzE1lWGw
 

@@ -1,7 +1,7 @@
 ---
 title:  Extending the SwiftUI DocumentGroup with more features
 date:   2023-05-26 06:00:00 +0000
-tags:   swiftui documentgroup
+tags:   swiftui
 
 assets: /assets/blog/23/0526/
 image:  /assets/blog/23/0526/image.jpg

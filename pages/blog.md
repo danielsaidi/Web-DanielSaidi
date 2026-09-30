@@ -15,7 +15,7 @@ image-show: 0
 </div>
 
 <div class="paper">
-  {% include kankoda/tags/list tags=site.tags firstmost="general,swift,swiftui,sdks,conferences" class="collapsed" %}
+  {% include kankoda/tags/list tags=site.tags firstmost="general,swift,swiftui" class="collapsed" %}
   {% include kankoda/tags/list-toggle %}
   
   <a name="tag-item-list"></a>

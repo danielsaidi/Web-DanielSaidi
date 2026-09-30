@@ -1,7 +1,7 @@
 ---
 title: Tweaking NDepend CQL rules
 date:  2011-10-06 12:00:00 +0100
-tags:  sponsored-content
+tags:  sponsored
 ---
 
 After learning how to automate and schedule NDepend to run for several solutions at once and starting to use NDepend more regularly, the power of CQL has grown on me.

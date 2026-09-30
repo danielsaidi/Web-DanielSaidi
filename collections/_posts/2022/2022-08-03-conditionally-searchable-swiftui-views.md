@@ -1,7 +1,7 @@
 ---
 title:  Conditionally searchable SwiftUI views
 date:   2022-08-03 06:00:00 +0000
-tags:   swiftui searchable
+tags:   swiftui
 
 icon:   swiftui
 

@@ -1,7 +1,7 @@
 ---
 title:  Adding scroll offset tracking to a SwiftUI ScrollView
 date:   2023-02-06 08:00:00 +0000
-tags:   swiftui scrollview
+tags:   swiftui open-source
 
 assets: /assets/blog/23/0206/
 image:  /assets/blog/23/0206/image.jpg

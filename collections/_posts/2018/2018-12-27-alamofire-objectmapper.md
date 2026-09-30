@@ -1,7 +1,7 @@
 ---
 title: Alamofire + AlamofireObjectMapper
 date:  2018-12-27 10:00:00 +0100
-tags:  swift realm
+tags:  swift
 icon:  swift
 
 api: http://danielsaidi.com/demo_Alamofire_AlamofireObjectMapper_Realm/api

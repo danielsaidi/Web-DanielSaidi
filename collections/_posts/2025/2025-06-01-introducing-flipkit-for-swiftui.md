@@ -1,7 +1,7 @@
 ---
 title:  Introducing FlipKit - a flippin' good library for SwiftUI
 date:   2025-06-01 07:00:00 +0000
-tags:   swiftui sdks
+tags:   swiftui open-source
 assets: /assets/blog/25/0601/
 image:  /assets/sdks/flipkit-header.jpg
 

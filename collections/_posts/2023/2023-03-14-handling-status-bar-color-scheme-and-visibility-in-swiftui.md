@@ -1,7 +1,7 @@
 ---
 title:  Handling status bar color scheme and visibility in SwiftUI
 date:   2023-03-14 06:00:00 +0000
-tags:   swiftui scrollview
+tags:   swiftui open-source
 
 assets: /assets/blog/23/0314/
 image:  /assets/blog/23/0314/image.jpg

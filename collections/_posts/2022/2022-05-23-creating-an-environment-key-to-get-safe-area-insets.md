@@ -1,7 +1,7 @@
 ---
 title:  Creating a custom environment key for safe area insets
 date:   2022-05-23 10:00:00 +0000
-tags:   swiftui environment-values
+tags:   swiftui
 
 icon:   swiftui
 tweet:  https://twitter.com/danielsaidi/status/1528773060123303937?s=20&t=PiJnnQfR8Ta3V-NP2TU-sQ

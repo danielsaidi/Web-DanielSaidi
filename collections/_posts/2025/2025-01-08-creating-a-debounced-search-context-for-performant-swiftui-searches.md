@@ -1,7 +1,7 @@
 ---
 title:  Creating a debounced search context for performant SwiftUI searches
 date:   2025-01-08 06:00:00 +0000
-tags:   swiftui combine
+tags:   swiftui swift
 
 assets: /assets/blog/25/0108/
 image:  /assets/blog/25/0108/image.jpg

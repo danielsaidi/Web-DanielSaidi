@@ -1,7 +1,7 @@
 ---
 title: Hide successful tests in QUnit
 date:  2010-06-03 12:00:00 +0100
-tags:  javascript testing
+tags:  web testing
 icon:  javascript
 ---
 

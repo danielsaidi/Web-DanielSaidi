@@ -1,7 +1,7 @@
 ---
 title:  New GestureButton open-source project
 date:   2024-09-02 06:00:00 +0000
-tags:   swiftui sdks gestures
+tags:   swiftui open-source gestures
 
 image:  /assets/sdks/gesturebutton-header.jpg
 image-show: 0

@@ -1,7 +1,7 @@
 ---
 title:  Removing extra back button in DocumentGroup navigation bar
 date:   2022-12-10 08:00:00 +0000
-tags:   swiftui documentgroup
+tags:   swiftui
 
 image-show: 0
 assets: /assets/blog/22/1210/

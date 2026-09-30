@@ -1,8 +1,7 @@
 ---
 title: Make a div container adjust to floating children
 date:  2010-08-06 12:00:00 +0100
-tags:  css
-icon:  html
+tags:  web
 ---
 
 Today, a collegue showed me a CSS fix for a problem that happens when a div container has nested, floating divs.

@@ -1,7 +1,7 @@
 ---
 title: Getting started with NDepend 3
 date:  2010-10-07 12:00:00 +0100
-tags:  sponsored-content
+tags:  sponsored
 ---
 
 I have finally got my thumb out and added an NDepend project to one of my hobby project solution, to get some analyzing done. Let's have a look!

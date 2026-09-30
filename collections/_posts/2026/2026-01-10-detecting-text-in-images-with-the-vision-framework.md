@@ -1,7 +1,7 @@
 ---
 title:  Detecting text in images with the Vision framework
 date:   2026-01-10 07:00:00 +0100
-tags:   swift swiftui vision ai ml
+tags:   swift swiftui vision ai
 
 image-show: 0
 image: /assets/blog/26/0110/image.jpg

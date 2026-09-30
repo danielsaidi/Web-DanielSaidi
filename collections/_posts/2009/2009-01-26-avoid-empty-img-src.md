@@ -1,8 +1,7 @@
 ---
 title: Avoid empty img src values
 date:  2009-01-26 08:00:00 +0100
-tags:  html web
-icon:  html
+tags:  web
 ---
 
 In this post, we'll discuss how empty image src values can ruin the performance of a web site, and how you can to solve it.

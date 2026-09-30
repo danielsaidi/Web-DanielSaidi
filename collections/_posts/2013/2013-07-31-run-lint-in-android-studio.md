@@ -1,7 +1,7 @@
 ---
 title: Run Lint in Android Studio
 date:  2013-07-31 14:29:00 +0100
-tags:  android linting
+tags:  android
 
 assets: /assets/blog/13/0731/
 image: /assets/blog/13/android.png

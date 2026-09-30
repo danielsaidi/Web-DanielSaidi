@@ -1,7 +1,7 @@
 ---
 title:  Using ApiKit to integrate with a REST API
 date:   2024-01-17 06:00:00 +0000
-tags:   swift api
+tags:   swift open-source
 
 image:  /assets/blog/24/0117.jpg
 image-show: 0

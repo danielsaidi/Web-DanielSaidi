@@ -1,7 +1,7 @@
 ---
 title: Scheduling NDepend for a set of solutions
 date:  2011-10-05 12:00:00 +0100
-tags:  sponsored-content
+tags:  sponsored
 ---
 
 I use NDepend to continuously run a scheduled code analysis on a bunch of solutions that make up a large part of the software infrastructure of a major Swedish company.

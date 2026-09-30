@@ -1,7 +1,7 @@
 ---
 title: Automate setting up Xcode
 date:  2018-11-05 15:00:00 +0200
-tags:	 xcode automation linting
+tags:	 xcode automation
 icon:  swift
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: HTML5 localstorage
 date:  2010-12-09 12:00:00 +0100
-tags:  javascript
+tags:  web
 icon:  javascript
 ---
 

@@ -12,7 +12,7 @@ from collections import Counter
 TAGS = {
     "ai": "AI", "css": "CSS", "gamedev": "Game Dev", "general": "Blog", "html": "HTML",
     "ios": "iOS", "javascript": "JavaScript", "macos": "macOS", "sdks": "SDKs", "spm": "SPM",
-    "sponsored-content": "Sponsored Content", "swiftui": "SwiftUI", "xcode": "Xcode",
+    "sponsored": "Sponsored Content", "swiftui": "SwiftUI", "xcode": "Xcode",
     "docc": "DocC", "visionos": "visionOS", "watchos": "watchOS", "tvos": "tvOS",
 }
 

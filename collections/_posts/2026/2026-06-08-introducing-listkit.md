@@ -1,7 +1,7 @@
 ---
 title:  Introducing ListKit - an open-source library for working with lists in SwiftUI
 date:   2026-06-08 08:00:00 +0100
-tags:   swiftui sdks open-source
+tags:   swiftui open-source
 
 image-show: 0
 image: /assets/blog/26/0608/image.jpg
