@@ -2,11 +2,13 @@
 layout: default
 title: Scripts
 permalink: /scripts
+
+post-xcode-tokens: /blog/2026/09/30/optimizing-claude-code-s-xcode-build-token-usage
 ---
 
 # Scripts
 
-A collection of scripts I use when working with my open-source projects. Feel free to copy and adapt them for your own use.
+A collection of scripts I use when working with my open-source projects. See [this page]({{page.post-xcode-tokens}}) for a build hook that saves Claude Code tokens when building Xcode.
 
 ## Git Update
 
@@ -22,7 +24,6 @@ for dir in */; do
   fi
 done
 ```
-&nbsp;
 
 ## Open-Source (HTTPS)
 
