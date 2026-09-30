@@ -1,0 +1,21 @@
+
+- name: Appamini
+  url: https://appamini.com
+  github: git@github.com:danielsaidi/Appamini-Web.git
+
+- name: DanielSaidi
+  url: https://danielsaidi.com
+  github: git@github.com:danielsaidi/Web-DanielSaidi.git
+
+- name: Kankoda
+  url: https://kankoda.com
+  github: git@github.com:Kankoda/Web.git
+
+- name: KeyboardKit
+  url: https://keyboardkit.com
+  github: git@github.com:keyboardkit/Keyboardkit-Web.git
+
+- name: Wally
+  url: https://wally.app
+  github: git@github.com:danielsaidi/Wally-Web.git
+

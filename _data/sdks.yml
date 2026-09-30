@@ -6,18 +6,52 @@
   github: https://github.com/KeyboardKit/KeyboardKit
   github_pro: https://github.com/KeyboardKit/KeyboardKitPro
   image: /assets/icons/keyboardkit.png
+  repos:
+    - name: binaries
+      github: git@github.com:keyboardkit/KeyboardKit-Binaries.git
+    - name: docs
+      github: git@github.com:keyboardkit/KeyboardKit-Documentation.git
+    - name: licenses
+      github: git@github.com:keyboardkit/KeyboardKit-Licenses.git
+    - name: release
+      github: git@github.com:keyboardkit/KeyboardKit.git
+    - name: src
+      github: git@github.com:keyboardkit/KeyboardKit-Source.git
+    - name: src-android
+      github: git@github.com:keyboardkit/KeyboardKit-Source-Android.git
 
 - name: LicenseKit
   url: https://kankoda.com/sdks/licensekit
   image: /assets/sdks/licensekit.png
   header: /assets/sdks/licensekit-header.jpg
+  repos:
+    - name: binaries
+      github: git@github.com:kankoda/LicenseKit-Binaries.git
+    - name: release
+      github: git@github.com:kankoda/LicenseKit.git
+    - name: src
+      github: git@github.com:kankoda/LicenseKit-Source.git
 
 - name: MediaKit
   url: https://kankoda.com/sdks/mediakit
   image: /assets/sdks/mediakit.png
   header: /assets/sdks/mediakit-header.jpg
+  repos:
+    - name: binaries
+      github: git@github.com:kankoda/MediaKit-Binaries.git
+    - name: release
+      github: git@github.com:kankoda/MediaKit.git
+    - name: src
+      github: git@github.com:kankoda/MediaKit-Source.git
 
 - name: VietnameseInput
   url: https://kankoda.com/sdks/vietnameseinput
   image: /assets/sdks/vietnameseinput.png
   header: /assets/sdks/vietnameseinput-header.jpg
+  repos:
+    - name: binaries
+      github: git@github.com:kankoda/VietnameseInput-binaries.git
+    - name: release
+      github: git@github.com:kankoda/VietnameseInput.git
+    - name: src
+      github: git@github.com:kankoda/VietnameseInput-source.git
