@@ -49,11 +49,6 @@
   image: /assets/sdks/mockingkit.png
   header: /assets/sdks/mockingkit-header.jpg
 
-- name: OnboardingKit
-  url: https://github.com/danielsaidi/OnboardingKit
-  image: /assets/sdks/onboardingkit.png
-  header: /assets/sdks/onboardingkit-header.jpg
-
 - name: PageView
   url: https://github.com/danielsaidi/PageView
   image: /assets/sdks/pageview.png
