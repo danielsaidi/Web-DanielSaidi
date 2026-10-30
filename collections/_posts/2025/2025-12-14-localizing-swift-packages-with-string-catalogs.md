@@ -1,7 +1,7 @@
 ---
 title:  Localizing Swift Packages with String Catalogs
 date:   2025-12-14 07:00:00 +0000
-tags:   talks spm l10n
+tags:   talks spm localization
 
 assets: /assets/blog/25/1214/
 image:  /assets/blog/25/1214/image.jpg

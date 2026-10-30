@@ -1,7 +1,7 @@
 ---
 title: Codable magic
 date:  2018-02-15 09:00:00 +0100
-tags:  swift codable
+tags:  swift
 icon:  swift
 ---
 

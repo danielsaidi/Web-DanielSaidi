@@ -1,7 +1,7 @@
 ---
 title:  Getting images from the AppKit pasteboard
 date:   2022-06-03 8:00:00 +0000
-tags:   swift pasteboard multi-platform
+tags:   swift multi-platform
 
 icon:   swift
 

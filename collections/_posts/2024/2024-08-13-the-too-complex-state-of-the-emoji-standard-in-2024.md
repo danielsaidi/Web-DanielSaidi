@@ -1,7 +1,7 @@
 ---
 title:  The (too?) complex state of Emojis in 2024
 date:   2024-08-13 06:00:00 +0000
-tags:   ios emojis
+tags:   general
 
 assets: /assets/blog/24/0813/
 image:  /assets/blog/24/0813.jpg

@@ -1,7 +1,7 @@
 ---
 title: Protocol-based array extensions not working
 date:  2018-02-14 08:00:00 +0100
-tags:  swift protocols extensions
+tags:  swift extensions
 
 image: /assets/blog/18/0214.png
 image-show: 0

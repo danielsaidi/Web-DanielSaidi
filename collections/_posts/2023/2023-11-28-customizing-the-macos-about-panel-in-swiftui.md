@@ -1,7 +1,7 @@
 ---
 title:  Customizing the macOS About Panel in SwiftUI
 date:   2023-11-28 10:00:00 +0000
-tags:   swiftui macos menubar
+tags:   swiftui macos
 
 assets: /assets/blog/23/1128/
 image:  /assets/blog/23/1128/image.jpg

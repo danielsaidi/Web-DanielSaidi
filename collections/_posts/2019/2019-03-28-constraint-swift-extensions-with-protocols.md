@@ -1,7 +1,7 @@
 ---
 title: Constrain Swift extensions with protocols
 date:  2019-03-28 21:00:00 +0100
-tags:  swift protocols extensions
+tags:  swift extensions
 icon:  swift
 ---
 

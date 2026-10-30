@@ -1,7 +1,7 @@
 ---
 title: Perform biometric authentication with FaceID or TouchID
 date:  2020-04-28 00:00:00 +0100
-tags:  swift authentication
+tags:  swift auth
 icon:  swift
 
 lib:    https://github.com/danielsaidi/SwiftUIKit

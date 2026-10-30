@@ -1,7 +1,7 @@
 ---
 title: Generic Swift protocols
 date:  2019-04-05 21:00:00 +0100
-tags:  swift protocols
+tags:  swift
 icon:  swift
 ---
 

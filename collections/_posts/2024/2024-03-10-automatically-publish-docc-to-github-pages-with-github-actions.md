@@ -1,7 +1,7 @@
 ---
 title:  Publish DocC to GitHub Pages with GitHub Actions
 date:   2024-03-10 06:00:00 +0000
-tags:   swift docc automation github
+tags:   swift docc automation git
 
 assets: /assets/blog/24/0310/
 image:  /assets/blog/24/0310.jpg

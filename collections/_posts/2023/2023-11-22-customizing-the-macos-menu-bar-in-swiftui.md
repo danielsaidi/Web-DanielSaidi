@@ -1,7 +1,7 @@
 ---
 title:  Customizing the macOS menu bar in SwiftUI
 date:   2023-11-22 06:00:00 +0000
-tags:   swiftui macos menubar
+tags:   swiftui macos
 
 assets: /assets/blog/23/1122/
 image:  /assets/blog/23/1122/image.jpg

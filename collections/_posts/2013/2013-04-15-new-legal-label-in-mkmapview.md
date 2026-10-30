@@ -1,7 +1,7 @@
 ---
 title: New legal label in MKMapView
 date:  2013-04-15 21:29:00 +0100
-tags:  ios geo
+tags:  ios mapkit
 icon:  swift
 
 assets: /assets/blog/13/0415/

@@ -1,7 +1,7 @@
 ---
 title:  Generating a random color in SwiftUI
 date:   2022-05-25 10:00:00 +0000
-tags:   swiftui colors
+tags:   swiftui
 
 icon:   swiftui
 ---

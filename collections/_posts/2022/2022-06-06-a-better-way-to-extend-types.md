@@ -1,7 +1,7 @@
 ---
 title:  A better way to extend types
 date:   2022-06-06 10:00:00 +0000
-tags:   swift pasteboard multi-platform
+tags:   swift multi-platform extensions
 
 icon:   swift
 

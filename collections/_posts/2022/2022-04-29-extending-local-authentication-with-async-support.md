@@ -1,7 +1,7 @@
 ---
 title:  Extending local authentication with async support
 date:   2022-04-29 07:00:00 +0100
-tags:   swift authentication async
+tags:   swift auth async
 
 icon:   swift
 assets: /assets/blog/2022/2022-04-29/

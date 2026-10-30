@@ -1,7 +1,7 @@
 ---
-title:  Slugify a string
+title:  Slugify a String in Swift
 date:   2022-05-30 01:00:00 +0000
-tags:   swift tags
+tags:   swift
 
 icon:   swift
 ---

@@ -1,7 +1,7 @@
 ---
 title:  Mocking with MockingKit
 date:   2021-01-12 07:00:00 +0100
-tags:   swift sdks testing mocking
+tags:   swift sdks testing
 
 assets: /assets/blog/21/0112/
 image:  /assets/blog/21/0112.jpg
