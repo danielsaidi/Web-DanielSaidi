@@ -44,17 +44,17 @@ stockholm: https://www.google.com/maps/place/Stockholm/@59.3258414,17.70188,10z/
           {% endfor %}
         </div>
       </section>
-      <section  class="slide-in opensource">
-        {% include kankoda/titles/section title="Open Source" link="/opensource" %}
-        {% include kankoda/grids/grid items=site.data.open-source type="icons" class="liquid-glass" limit=4 %}
-      </section>
       <section  class="slide-in sdks">
-        {% include kankoda/titles/section title="SDKs" link="/apps" %}
+        {% include kankoda/titles/section title="SDKs" link="/sdks" %}
         {% include kankoda/grids/grid items=site.data.sdks type="icons" limit=4 %}
       </section>
       <section  class="slide-in apps">
         {% include kankoda/titles/section title="Apps" link="/apps" %}
         {% include kankoda/grids/grid items=site.data.apps type="icons" limit=4 %}
+      </section>
+      <section  class="slide-in opensource">
+        {% include kankoda/titles/section title="Open Source" link="/opensource" %}
+        {% include kankoda/grids/grid items=site.data.open-source type="icons" class="liquid-glass" limit=4 %}
       </section>
       <section  class="slide-in work">
         {% include kankoda/titles/section title="Work" link="/work" %}
