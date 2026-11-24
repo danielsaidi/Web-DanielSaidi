@@ -1,5 +1,5 @@
 ---
-title:  Some thoughts following the last crazy weekend of custom keyboards
+title:  Some thoughts following a crazy custom keyboards weekend
 date:   2026-11-24 06:00:00 +0100
 tags:   keyboard
 
